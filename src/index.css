@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: #dadbec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    width: 940px;
+    height: 600px;
+    padding: 16px;
+    border-radius: 15px;
+    background: var(--colors-white, #ffffff);
+    box-shadow: 0px 25px 40px -20px #00000018;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    .left {
+      width: 274px;
+      height: 568px;
+      border-radius: 10px;
+      padding: 40px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: #483eff;
+      position: relative;
+      #designs-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+      }
+      .card {
+        gap: 16px;
+        display: flex;
+        .num {
+          width: 33px;
+          height: 33px;
+          border-radius: 16.5px;
+          border: 1px solid #ffffff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-family: Ubuntu;
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 1px;
+          color: #022959;
+        }
+        .card-content {
+          width: 85px;
+          height: 31px;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-family: Ubuntu;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0px;
+            color: #abbcff;
+          }
+          p {
+            font-family: Ubuntu;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .right {
+      width: 450px;
+      height: 553px;
+      justify-content: space-between;
+      margin-top: 47px;
+      gap: 56px;
+      display: flex;
+      flex-direction: column;
+      .right-content {
+        width: 450px;
+        height: 401px;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          width: 450px;
+          height: 94px;
+          gap: 8px;
+          h1 {
+            font-family: Ubuntu;
+            font-weight: 700;
+            font-size: 32px;
+            color: #022959;
+          }
+          p {
+            font-family: Ubuntu;
+            font-weight: 700;
+            font-size: 16px;
+            color: #9699aa;
+          }
+        }
+        .form {
+          width: 450px;
+          height: 267px;
+          gap: 24px;
+          display: flex;
+          flex-direction: column;
+          .form-group {
+            width: 450px;
+            height: 73px;
+            gap: 8px;
+            display: flex;
+            flex-direction: column;
+            .form-label {
+              font-family: Ubuntu;
+              font-weight: 700;
+              font-size: 14px;
+              color: #022959;
+            }
+            #input {
+              width: 450px;
+              height: 48px;
+              border-radius: 8px;
+              padding: 16px;
+              border-width: 1px;
+              font-family: Ubuntu;
+              font-weight: 700;
+              font-size: 16px;
+              color: #9699aa;
+              border: 1px solid var(--colors-purple-200, #d6d9e6);
+            }
+          }
+        }
+      }
+      .bottom {
+        width: 450px;
+        height: 96px;
+        gap: 10px;
+        display: flex;
+        justify-content: flex-end;
+        .button {
+          width: 123px;
+          height: 48px;
+          border-radius: 8px;
+          background: #022959;
+          font-family: Ubuntu;
+          font-weight: 700;
+          font-size: 16px;
+          color: #FFFFFF;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
